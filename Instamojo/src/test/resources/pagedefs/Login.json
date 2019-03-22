@@ -1,0 +1,16 @@
+{	
+"loginTab": {
+	"DESKTOP_WEB":"xpath=//ul[@class='nav--header']/li[2]"
+	},
+    "uName": {
+	"DESKTOP_WEB":"xpath=//input[@id='id_login_username']"
+	},
+	"pswrd": {
+	"DESKTOP_WEB":"xpath=//input[@id='id_login_password']"
+	},
+	"loginBtn": {
+	"DESKTOP_WEB":"xpath=//input[@id='submit']"
+	}
+	
+	
+}

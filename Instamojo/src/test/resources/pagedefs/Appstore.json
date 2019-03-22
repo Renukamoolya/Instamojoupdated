@@ -1,0 +1,29 @@
+{	
+    "appStore": {
+	"DESKTOP_WEB":"xpath=//div[contains(text(),'App Store')]"
+	},
+	"requestPayment": {
+	"DESKTOP_WEB":"xpath=//div[contains(text(),'Send Payment Request to customers via Email & SMS. Plus Bulk Requests!')]"
+	},
+	"sendRequest": {
+	"DESKTOP_WEB":"xpath=//a[contains(text(),'Send Another Request')]"
+	},
+	"email": {
+	"DESKTOP_WEB":"xpath=//input[@placeholder='Enter a 10-digit mobile number or an Email ID']"
+	},
+	"ammount": {
+	"DESKTOP_WEB":"xpath=//input[@placeholder='Enter the amount']"
+	},
+	"paymentPurpose": {
+	"DESKTOP_WEB":"xpath=//input[@placeholder='What is this payment for? (max 30 chars)']"
+	},
+	"sendnow": {
+	"DESKTOP_WEB":"xpath=//input[@class='btn-block small-only-push--bottom btn-green']"
+	},
+	"reuestpaymentText": {
+	"DESKTOP_WEB":"//*[contains(text(),'Your request for payment is processed.')]"
+	},
+	"costcalculator": {
+	"DESKTOP_WEB":"xpath=//*[contains(text(),'Shipping Cost Calculator')]"
+	}
+}

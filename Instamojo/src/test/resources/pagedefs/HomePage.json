@@ -1,0 +1,56 @@
+{	
+"clickOnPaymentLink": {
+	"DESKTOP_WEB":"xpath=//div[contains(text(),'Create Payment Link')]"
+	},
+	"clickOnAddProductBtn": {
+	"DESKTOP_WEB":"xpath=//div[contains(text(),'Add Product')]"
+	},
+	"clickLogOutDropDown": {
+	"DESKTOP_WEB":"xpath=//div[@class='dropdown-control']"
+	},
+	"logout": {
+	"DESKTOP_WEB":"xpath=//div[@class='dropdown-option hover-danger']/a"
+	},
+	"WaitForLogInText": {
+	"DESKTOP_WEB":"xpath=//ul[@class='nav--header']/li[2]"
+	},
+    "helpSuportLink": {
+	"DESKTOP_WEB":"xpath=//a[contains(text(),'Help & Support')]"
+	},
+	"submitRequest": {
+	"DESKTOP_WEB":"xpath=//a[contains(text(),'Submit a Request')]"
+	},
+	"emailAddress": {
+	"DESKTOP_WEB":"xpath=//*[contains(text(),'Your email address')]/following-sibling::input"
+	},
+	"subject": {
+	"DESKTOP_WEB":"xpath=//*[contains(text(),'Subject')]/following-sibling::input"
+	},
+	"description": {
+	"DESKTOP_WEB":"xpath=//label[contains(text(),'Description')]/following-sibling::textarea"
+	},
+	"ticketTypeDropDown": {
+	"DESKTOP_WEB":"xpath=//a[text()='-']"
+	},
+	"submitButton": {
+	"DESKTOP_WEB":"xpath=//input[@type='submit' and @value='Submit']"
+	},
+	"findresources": {
+	"DESKTOP_WEB":"xpath=//a[contains(text(),'Find Resources')]"
+	},
+	"pricing": {
+	"DESKTOP_WEB":"xpath=//*[contains(text(),'Pricing')]"
+	},
+	"Rate/FeeCalculator": {
+	"DESKTOP_WEB":"xpath=//*[contains(text(),'Rate/Fee Calculator')]"
+	},
+	"InstamojoFeeCalculator": {
+	"DESKTOP_WEB":"xpath=//*[contains(text(),'Instamojo Fee Calculator')]"
+	},
+	"paymentAmmountTextBox": {
+	"DESKTOP_WEB":"xpath=//*[@id='value']"
+	},
+	"CalculateFees": {
+	"DESKTOP_WEB":"xpath=//a[contains(text(),'Calculate Fees')]"
+	}
+}

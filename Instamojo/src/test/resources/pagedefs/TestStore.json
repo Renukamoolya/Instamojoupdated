@@ -1,0 +1,11 @@
+{	
+
+    "VerifyBuyNowBtn": {
+	"DESKTOP_WEB":"xpath=//button[contains(text(),'Buy Now')]"
+	},
+	"NavigateToDashboardPage": {
+	"DESKTOP_WEB":"xpath=//a[contains(text(),'Dashboard')]"
+	}
+	
+	
+}

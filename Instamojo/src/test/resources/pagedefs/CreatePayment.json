@@ -1,0 +1,99 @@
+{	
+
+    "purposeOfPayment": {
+	"DESKTOP_WEB":"xpath=//div[@class='can-has-errors']/input[@placeholder='What is this payment for?']"
+	},
+	"enterAmount": {
+	"DESKTOP_WEB":"xpath=//div[@class='collapse prefixed-input']/input[@placeholder='Enter the amount']"
+	},
+	"clickOnCreateBtn": {
+	"DESKTOP_WEB":"xpath=//ul[@class='form-items-container ']/li/input[@type='submit']"
+	},
+	"goBackToDashboardpage": {
+	"DESKTOP_WEB":"xpath=//a[contains(text(),'Back to Dashboard')]"
+	},
+	"clickOnPaymentlinkTab": {
+	"DESKTOP_WEB":"xpath=//div[contains(text(),'Payment Links')]"
+	},
+	"liveLinkbtn": {
+	"DESKTOP_WEB":"xpath=//button[contains(text(),'Live Links')]"
+	},
+	"textLinkReady": {
+	"DESKTOP_WEB":"xpath=//span[contains(text(),' Link Ready!')]"
+	},
+	"verifyListBox": {
+	"DESKTOP_WEB":"xpath=//div[@class='links-list-item-outer']"
+	},
+	"waitAddproductText": {
+	"DESKTOP_WEB":"xpath=//h1[contains(text(),'Add Product')]"
+	},
+	"addProductTitle": {
+	"DESKTOP_WEB":"xpath=//div[@class='can-has-errors']/input[@placeholder='Add a title']"
+	},
+	"addProductDescription": {
+	"DESKTOP_WEB":"xpath=//div[@class='can-has-errors']/textarea[@placeholder='Add all the information that your customer needs to know']"
+	},
+	"waitForTextPrice": {
+	"DESKTOP_WEB":"xpath=//label[contains(text(),'Price')]"
+	},
+	"addPrice": {
+	"DESKTOP_WEB":"xpath=//label[text()='Price']/../..//input"
+	},
+	"addShipWithin": {
+	"DESKTOP_WEB":"xpath=//div[@class='can-has-errors']/input[@class='flush--bottom']"
+	},
+	"clickOnAddProductBtn": {
+	"DESKTOP_WEB":"xpath=//input[@value='Add Product to Store']"
+	},
+	"SmartLink": {
+	"DESKTOP_WEB":"xpath=//a[contains(text(),'Smart Link')]" 
+	},
+	"PaymentInvoice": {
+	"DESKTOP_WEB":"xpath= //*[@id='dashboard']/div/div/div[3]/section/div/div/div/div[3]/div/form/div/div/ul/div[3]/div/div[1]/div/ul/li/div[2]/input"
+						
+	},
+	"Setlink": {
+	"DESKTOP_WEB":"xpath=//*[@id='dashboard']/div/div/div[3]/section/div/div/div/div[3]/div/form/div/div/ul/div[4]/div/label/input" 
+	},
+	"limitPayment": {
+	"DESKTOP_WEB":"xpath=//*[contains(text(),'Limit number of payments')]/preceding-sibling::input"
+	},
+	"limitPaymentTextBox": {
+	"DESKTOP_WEB":"xpath=//*[@id='dashboard']/div/div/div[3]/section/div/div/div/div[3]/div/form/div/div/ul/div[4]/div/div[2]/div/div/div/div/div[2]/li/div/div[2]/div[2]/div/div/ul/li/div/input"
+	},
+	"submit": {
+	"DESKTOP_WEB":"xpath=//*[@id='dashboard']/div/div/div[3]/section/div/div/div/div[3]/div/form/div/div/ul/div[5]/input"
+	},
+	"smartAction": {
+	"DESKTOP_WEB":"xpath=//*[@id='dashboard']/div/div/div[3]/section/div/div/div/div[2]/div/form/div/div/ul/div[3]/div/label/input" 
+	},
+	"thankNote": {
+	"DESKTOP_WEB":"xpath=//*[@id='dashboard']/div/div/div[3]/section/div/div/div/div[2]/div/form/div/div/ul/div[3]/div/div[2]/div/div/div/div/div/li/div[1]/label/input" 
+	},
+	"thankNoteTextBox": {
+	"DESKTOP_WEB":"//*[@class='undefined  max-char']"	
+	},
+	"done": {
+	"DESKTOP_WEB":"xpath=//*[@id='dashboard']/div/div/div[3]/section/div/div/div/div[2]/div/form/div/div/ul/div[4]/input" 
+	},
+	"paymentLink": {
+	"DESKTOP_WEB":"xpath=//div[contains(text(),'Payment Links')]" 
+	},
+	"pymentList": {
+	"DESKTOP_WEB":"xpath=//*[@id='dashboard']/div/div/div[3]/section/div/div[3]/div/ul/div[1]/div[1]/div[5]/div[1]/img" 
+	},
+	"dropDownButton": {
+	"DESKTOP_WEB":"xpath=//*[@id='dashboard']/div/div/div[3]/section/div/div[3]/div/ul/div[1]/div[1]/div[5]/div[2]/div"
+	},
+	"edit": {
+	"DESKTOP_WEB":"xpath=//*[contains(text(),'Edit')]" 
+	},
+	"next": {
+	"DESKTOP_WEB":"xpath=//input[@class=' btn-block btn-green']" 
+	}
+	
+
+
+	
+	
+}

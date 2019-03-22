@@ -1,0 +1,30 @@
+ {
+ "Apiandplugin": {
+	"DESKTOP_WEB":"xpath=//i[@class='nc-icon-outline design_code lg push-half--right']"
+	},
+	"chooseFramework": {
+	"DESKTOP_WEB":"xpath=//*[@id='dashboard']/div/div/div[3]/section/div/div[4]/div/div/div[2]/div/div/div/li/div/select"
+	},
+	"newcredentials": {
+	"DESKTOP_WEB":"xpath=//button[contains(text(),'+ Create new Credentials')]"
+	},
+	"generateCredentials": {
+	"DESKTOP_WEB":"xpath=//*[contains(text(),'Generate Credentials')]/following-sibling::div"
+	},
+	"webhookTestingTool": {
+	"DESKTOP_WEB":"xpath=//a[contains(text(),'Webhook Testing Tool')]"
+	},
+	"chooseLink": {
+	"DESKTOP_WEB":"xpath=//select[@class='flush--bottom']"
+	},
+	"serverUrl": {
+	"DESKTOP_WEB":"xpath=//input[@placeholder='http://testsite.com/endpoint/']"
+	},
+	"sendwebhook": {
+	"DESKTOP_WEB":"xpath=//button[contains(text(),'Send Webhook')]"
+	},
+	"response": {
+	"DESKTOP_WEB":"xpath=//label[contains(text(),'Webhook Posted')]"
+	}
+}
+	
